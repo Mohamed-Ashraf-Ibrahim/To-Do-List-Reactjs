@@ -21,4 +21,9 @@ Check out the live demo of the application [here](https://666c629940f54e7b5e20a2
 - JavaScript (ES6+)
 - React.js
 
+## Key Features
 
+- **Dynamic Task Management**: Add and delete tasks seamlessly.
+- **State Management**: Utilizing React's useState and useEffect hooks for efficient state updates and management.
+- **Local Storage**: Tasks are stored locally using browser's Local Storage API for persistent data storage.
+- **Responsive Design**: CSS was employed to ensure the application is visually appealing and accessible across devices.
