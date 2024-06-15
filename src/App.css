@@ -26,7 +26,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-.form input[type="text"] {
+.form textarea[type="text"] {
   flex: 1;
   padding: 10px;
   border: 1px solid #ccc;
@@ -83,10 +83,11 @@ h1 {
 .tasks .close-btn {
   background: none;
   border: none;
-  color: red;
   font-size: 16px;
   cursor: pointer;
 }
+
+
 
 .tasks .close-btn:hover {
   color: darkred;

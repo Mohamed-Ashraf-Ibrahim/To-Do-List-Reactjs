@@ -13,14 +13,25 @@ function Form({ onAddTasks }) {
     onAddTasks(newTasks);
     setItem("");
   }
+
+  function handleKeyDown(e) {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      handleSubmit(e);
+    }
+  }
   return (
     <div>
       <form onSubmit={handleSubmit} className="form">
-        <input
+        <textarea
+          className="large-textarea"
           type="text"
+          rows="1"
+          cols={"63"}
           placeholder="Add a Task ..."
           value={item}
           onChange={(e) => setItem(e.target.value)}
+          onKeyDown={handleKeyDown}
         />
         <button>Add Task</button>
       </form>
