@@ -9,8 +9,8 @@ function Form({ onAddTasks }) {
     // Check if item is empty; if so, alert the user
     if (!item) return alert("You must write a task");
     // Create a new task object with item, completed status, and unique id
-    const newTodos = { item, completed: false, id: Date.now() };
-    onAddTasks(newTodos);
+    const newTasks = { item, completed: false, id: Date.now() };
+    onAddTasks(newTasks);
     setItem("");
   }
   return (
