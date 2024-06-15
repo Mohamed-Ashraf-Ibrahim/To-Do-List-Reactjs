@@ -7,8 +7,9 @@ export default function Stats({ tasks, onClearTasks }) {
         {tasks.length > 0 ? (
           <>
             Total Number of Tasks = {tasks.length}
+            <br />
             {completedTasks.length > 0 &&
-              ` (${completedTasks.length} completed)`}
+              ` (${completedTasks.length} Tasks completed ✅)`}
           </>
         ) : (
           "There are no tasks"
