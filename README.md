@@ -5,7 +5,7 @@
 Welcome to the To-Do List Application! This web-based application helps users manage their tasks effectively. Whether you're organizing work projects, planning household chores, or tracking personal errands, this app is designed to simplify task management.
 
 ## Demo
-Check out the live demo of the application [here](https://666c629940f54e7b5e20a226--stirring-croquembouche-60da52.netlify.app/).
+Check out the live demo of the application [here](https://stirring-croquembouche-60da52.netlify.app/).
 
 ## Features
 
