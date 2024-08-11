@@ -20,6 +20,7 @@ function Form({ onAddTasks }) {
       handleSubmit(e);
     }
   }
+  
   return (
     <div>
       <form onSubmit={handleSubmit} className="form">
